@@ -3,3 +3,5 @@ A fully functional Ecommerce Site. I was tasked with developing a site where all
 On checkout the users order is uploaded to a new table called orders.
 
 The design was based around a brand standards guideline that was given to the students.
+
+When cloned the data will not display due it being dynamically taken from a SAIT database.
