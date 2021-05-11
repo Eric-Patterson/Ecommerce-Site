@@ -1,0 +1,46 @@
+
+.logoContainer{
+ padding-top: 1em;
+}
+.navLogo{
+    height: 50px;
+}
+nav{
+    /* border: 1px solid red; */
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+ul{
+    list-style: none;
+}
+.flexEnd{
+    display: flex;
+    justify-content: flex-end;
+}
+li{
+    padding: 0 1em;
+}
+nav a{
+    padding: 0.5em;
+    /* border: 1px solid red; */
+    font-size: 1.3em;
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    background: linear-gradient(to right, var(--orange), var(--orange) 50%, white 50%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 200% 100%;
+    background-position: 100%;
+    /* transition: background-position 275ms ease; */
+    transition: all 0.3s ease 0s;
+}
+nav a:hover{
+    background-position: 0 100%;
+}
